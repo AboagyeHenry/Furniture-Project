@@ -1,0 +1,554 @@
+/* ///////////////////
+      MEDIA QUERIES 
+   //////////////////   */
+
+
+
+   /* @media only screen and (max-width: 160rem){
+    nav p {
+        font-size: 3rem;
+    }
+    nav ul li a {
+        font-size: 2rem;
+    }
+    .abt {
+        font-size: 2rem;
+    }
+    h1 {
+        position: relative;
+        font-size: 9rem;
+        line-height: 8.5rem;
+    }
+    .hero_text {
+        margin-top: 0rem;
+        margin-left: 0rem;
+        font-size: 3.5rem;
+        left: 20rem;
+        top: 14rem;
+    }
+    .icon {
+        top: 60rem;
+        left: 139rem;
+        font-size: 5rem;
+    }
+    .pic {
+        width: 100%;
+        height: 100%;
+    }
+   } */
+
+
+
+
+/* 1440px */
+@media only screen and (max-width: 90rem) {
+    .hero_Section {
+        background-size: 141vw 100vh;
+        width: 1440px;
+    }
+
+    .icon {
+        left: 78rem;
+    }
+
+    .picc {
+        width: 515px;
+        margin-left: 2rem;
+    }
+
+    .lamp {
+        width: 100%;
+    }
+
+    .pic4 {
+        width: 100%;
+    }
+}
+
+
+/* 1024px */
+@media only screen and (max-width: 64rem) {
+    .hero_Section {
+        background-size: 141vw 100vh;
+        width: 141%;
+    }
+    .picc {
+        width: 94%;
+    }
+    .icon {
+        left: 78rem;
+    }
+
+    .section_1 {
+        width: 141%;
+    }
+
+    .section_2 {
+        width: 141%;
+    }
+
+    .section_3 {
+        width: 141%;
+    }
+
+    .lamp {
+        width: 141%;
+    }
+
+    .sofa-p-text-box {
+        width: 119%;
+    }
+
+    .pic4 {
+        width: 141%;
+    }
+
+    .coffe-side-text {
+        margin-left: 19rem;
+        width: 122%;
+    }
+
+    .footer-section {
+        width: 141%;
+    }
+
+    .footer {
+        width: 139%;
+    }
+}
+
+/* 768px */
+@media only screen and (max-width: 48rem) {
+    .hero_Section {
+        background-size: 189vw 100vh;
+        width: 189%;
+    }
+
+    .picc {
+        width: 522px;
+    }
+
+    .section_1 {
+        width: 189%;
+    }
+
+    .section_2 {
+        width: 189%;
+    }
+
+    .section_3 {
+        width: 189%;
+    }
+
+    .lamp {
+        width: 189%;
+    }
+
+    .sofa-p-text-box {
+        width: 121%;
+    }
+
+    .pic4 {
+        width: 189%;
+    }
+
+    .coffe-section {
+        width: 152%;
+    }
+
+    .coffe-side-text {
+        margin-left: 12rem;
+        width: 122%;
+    }
+
+    .footer-section {
+        width: 189%;
+    }
+
+    .footer {
+        width: 189%;
+    }
+}
+
+/* 425px */
+@media only screen and (max-width: 26.5625rem) {
+    .hero_Section {
+        background-size: 341vw 100vh;
+        width: 341%;
+    }
+
+    .picc {
+        width: 522px;
+    }
+
+    .section_1 {
+        width: 341%;
+    }
+
+    .section_2 {
+        width: 341%;
+    }
+
+    .section_3 {
+        width: 341%;
+    }
+
+    .lamp {
+        width: 341%;
+    }
+
+    .sofa-p-text-box {
+        width: 120%;
+    }
+
+    .pic4 {
+        width: 341%;
+    }
+
+    .write-review {
+        margin-left: 44rem;
+    }
+
+    .coffe-section {
+        width: 275%;
+    }
+
+    .coffe-side-text {
+        margin-left: 12rem;
+        width: 122%;
+    }
+
+    .footer-section {
+        width: 338%;
+    }
+
+    .footer {
+        width: 338%;
+    }
+}
+
+/* 414px */
+@media only screen and (max-width: 25.875rem) {
+    .hero_Section {
+        background-size: 388vw 77vh;
+        width: 387%;
+    }
+
+    .icon {
+        left: 87rem;
+        top: 28rem;
+    }
+
+    #Pic {
+        display: none;
+    }
+
+    .section_1 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        width: 387%;
+        padding: 6rem;
+    }
+
+    #floydH2-2 {
+        margin-left: 9rem;
+    }
+
+    .mid-span {
+        text-align: inherit;
+    }
+
+    .mid {
+        margin-left: 36px;
+    }
+
+    .explore-room-button {
+        margin-left: 11.5rem;
+    }
+
+    .section_2 {
+        display: block;
+        width: 387%;
+        padding-top: 0rem;
+    }
+
+    #floydH2 {
+        margin-left: 21rem;
+    }
+
+    .section-2-text-button {
+        margin-left: 35rem;
+    }
+
+    .section-2-text {
+        margin: 1rem 1rem 0rem 3rem;
+        padding: 6rem;
+    }
+
+    .my-video {
+        width: 100%;
+        height: 530px;
+    }
+
+    .section_3 {
+        width: 387%;
+        display: block;
+    }
+
+    .section-3-text {
+        margin-top: 0rem;
+        padding: 6rem;
+    }
+
+    #floydH2-1 {
+        margin-left: 13rem;
+    }
+
+    .buttons {
+        margin: 5rem 0rem 2rem 11rem;
+    }
+
+    .lamp {
+        width: 387%;
+    }
+
+    .sofa-p-text-box {
+        width: 148%;
+    }
+
+    .pic1 {
+        width: 100%;
+        height: 700px;
+    }
+
+    .pic4 {
+        width: 387%;
+    }
+
+    .veiw-img-box {
+        column-gap: 5rem;
+    }
+
+    .coffe-section {
+        width: 318%;
+    }
+
+    .coffe-side-text {
+        margin-left: 12rem;
+        width: 122%;
+    }
+
+    .write-review {
+        margin-left: 44rem;
+    }
+
+    .footer-section {
+        width: 387%;
+    }
+
+    .footer {
+        width: 385%;
+    }
+}
+
+
+    /* 390px */
+
+@media only screen and (max-width: 24.375rem){
+    .icon {
+        left: 82rem;
+    }
+    .sofa-p-text-box {
+        width: 131%;
+    }
+}
+
+
+    /* 375px */
+@media only screen and (max-width: 23.4375rem) {
+    .hero_Section {
+        background-size: 492vw 100vh;
+        width: 492%;
+    }
+
+    .icon {
+        left: 100rem;
+    }
+
+    #Pic {
+        display: none;
+    }
+
+    .section_1 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        width: 492%;
+        padding: 6rem;
+    }
+
+    .floydH2-1 {
+        margin-left: -12rem;
+    }
+
+    #floydH2-2 {
+        margin-left: 9rem;
+    }
+
+    .mid-span {
+        text-align: inherit;
+    }
+
+    .mid {
+        margin-left: 36px;
+    }
+
+    .explore-room-button {
+        margin-left: 11.5rem;
+    }
+
+    .section_2 {
+        display: block;
+        width: 492%;
+        padding-top: 0rem;
+    }
+
+    #floydH2 {
+        margin-left: 21rem;
+    }
+
+    .section-2-text-button {
+        margin-left: 35rem;
+    }
+
+    .section-2-text {
+        margin: 1rem 1rem 0rem 3rem;
+        padding: 6rem;
+    }
+
+    .my-video {
+        width: 100%;
+        height: 530px;
+    }
+
+    .section_3 {
+        width: 492%;
+        display: block;
+    }
+
+    .section-3-text {
+        margin-top: 0rem;
+        padding: 6rem;
+    }
+
+    #floydH2-1 {
+        margin-left: 13rem;
+    }
+
+    .buttons {
+        margin: 5rem 0rem 2rem -12rem;
+    }
+
+    .lamp {
+        width: 492%;
+    }
+
+    .sofa-p-text-box {
+        width: 191%;
+    }
+
+    .pic1 {
+        width: 100%;
+        height: 700px;
+    }
+
+    .pic4 {
+        width: 492%;
+    }
+
+    .coffe-section {
+        width: 492%;
+    }
+
+    .coffe-side-text {
+        margin-left: 12rem;
+        width: 80%;
+    }
+
+    .write-review {
+        margin-left: 44rem;
+    }
+
+    .veiw-img-box {
+        column-gap: 8rem;
+    }
+
+    .footer-section {
+        width: 492%;
+    }
+
+    .footer {
+        width: 385%;
+    }
+}
+
+/* 320px */
+@media only screen and (max-width: 20rem) {
+    .hero_Section {
+        background-size: 503vw 100vh;
+        width: 503%;
+    }
+
+    .icon {
+        top: 27rem;
+        left: 86rem;
+    }
+
+    .section_1 {
+        width: 503%;
+    }
+
+    .section_2 {
+        width: 503%;
+    }
+
+    .section_3 {
+        width: 453%;
+    }
+
+    .lamp {
+        width: 503%;
+    }
+
+    .sofa-p-text-box {
+        width: 150%;
+    }
+
+    .pic1 {
+        width: 111%;
+    }
+
+    .pic4 {
+        width: 503%;
+    }
+
+    .coffe-section {
+        width: 365%;
+    }
+
+    .coffe-side-text {
+        margin-left: 15rem;
+        width: 122%;
+    }
+
+    .view-4 {
+        width: 12px;
+    }
+
+    .footer-section {
+        width: 503%;
+    }
+
+    .footer {
+        width: 500%;
+    }
+}
